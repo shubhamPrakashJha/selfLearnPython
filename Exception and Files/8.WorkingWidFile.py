@@ -4,8 +4,6 @@ try:
 finally:
     myfile.close()
 
-try:
-    myfile = open("filename.txt", "r")
+
+with open("filename.txt", "r") as myfile:
     print(myfile.read())
-finally:
-    myfile.close()
