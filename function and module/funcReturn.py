@@ -5,5 +5,5 @@ def max(x,y):
         return y
 
 print(max(int(input("enter 1st no.")),int(input("input 2nd no."))))
-z = max(int(input("enter 1st no.")),int(input("input 2nd no.")))1
+z = max(int(input("enter 1st no.")),int(input("input 2nd no.")))
 print(z)
