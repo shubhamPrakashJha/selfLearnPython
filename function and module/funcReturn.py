@@ -4,6 +4,6 @@ def max(x,y):
     else:
         return y
 
-print(max(2,4))
-z = max(3,4)
+print(max(int(input("enter 1st no.")),int(input("input 2nd no."))))
+z = max(int(input("enter 1st no.")),int(input("input 2nd no.")))1
 print(z)
