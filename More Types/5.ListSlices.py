@@ -1,6 +1,8 @@
 # squares = [0,1,4,9,16,25,36,49,64,81]
+squares  = []
 for i in range(9):
-    squares[i] = i*i
+    squares.append(i*i)
+
 
 print(squares)
 print(squares[2:6])
