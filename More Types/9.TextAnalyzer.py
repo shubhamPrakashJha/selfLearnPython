@@ -12,4 +12,4 @@ with open(filename) as f:
 
 for char in "Labcdefghijklmnopqrstuvwxyz":
     perc = 100*char_count(text,char)/len(text)
-    print("{0} = {1}%".format(char,round(perc,2)))
+    print("{0} = {1}({2}%)".format(char,char_count(text,char),round(perc,2)))
