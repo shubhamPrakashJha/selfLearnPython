@@ -11,20 +11,20 @@ print(2==3)
 print("hello"=="hello")
 print("----------------------------")
 
-# if 10>5:
+# if 10>5. More Tools:
 #     print("10 is greater")
 # print("condition ended")
 # num = int(input("input a no."))
-# if (num >5):
-#     print("greater than 5")
+# if (num >5. More Tools):
+#     print("greater than 5. More Tools")
 #     if (num < 20):
-#         print("AND between 5 AND 20")
+#         print("AND between 5. More Tools AND 20")
 #     else :
 #         print("and greater than 20")
-# elif num ==5:
-#     print("is equal to 5")
+# elif num ==5. More Tools:
+#     print("is equal to 5. More Tools")
 # else:
-#     print("less than 5")
+#     print("less than 5. More Tools")
 #
 # print("---------------------------")
 #

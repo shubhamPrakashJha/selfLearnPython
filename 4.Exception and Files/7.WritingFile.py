@@ -1,5 +1,5 @@
 myfile = open("filename.txt","w")
-myfile.write("this has been written 1st time to the file")
+myfile.write("this has been written 1st time to the file\n")
 myfile.close()
 
 # myfile = open("filename.txt", "r")
@@ -7,7 +7,7 @@ myfile.close()
 # myfile.close()
 
 msg = "this has been written 2nd time to the file"
-myfile = open("filename.txt","w")
+myfile = open("filename.txt","a")
 count = myfile.write(msg)
 myfile.close()
 
